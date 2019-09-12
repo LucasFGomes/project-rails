@@ -27,7 +27,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 #Gems Additional
-gem 'devise' 
+gem "devise", ">= 4.7.1" 
 gem 'pundit'
 gem 'paranoia', '~> 2.2'
 gem 'rack-cors'
@@ -35,6 +35,8 @@ gem 'rack-cors'
 gem 'rubyzip', '>= 1.2.1'
 gem 'axlsx', git: 'https://github.com/randym/axlsx.git', ref: 'c8ac844'
 gem 'axlsx_rails'
+
+gem "nokogiri", ">= 1.10.4"
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
