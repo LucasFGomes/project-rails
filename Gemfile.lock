@@ -131,7 +131,7 @@ GEM
     paranoia (2.4.2)
       activerecord (>= 4.0, < 6.1)
     public_suffix (3.1.0)
-    puma (3.12.1)
+    puma (3.12.2)
     pundit (2.0.1)
       activesupport (>= 3.0.0)
     rack (2.0.8)
@@ -235,7 +235,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   nokogiri (>= 1.10.4)
   paranoia (~> 2.2)
-  puma (~> 3.11)
+  puma (~> 3.12)
   pundit
   rack-cors
   rails (~> 5.2.3)
